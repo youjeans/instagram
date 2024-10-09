@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-size: 15px;
+}
+
+.contents {
+    width: 1280px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 473px;
+    height: 593px;
+
+}
+
+.left {
+    position: relative;
+    width: 475px;
+    height: 593px;
+    overflow: hidden;
+}
+
+.left video {
+    border: 1px solid gray;
+}
+
+
+
+.profile {
+    vertical-align: top;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+    height: 60px;
+    text-align: left;
+}
+
+.profile_main {
+    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+    height: 60px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.circle-container {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 0.1px solid gray;
+    margin-right: 10px;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.inline-container {
+    display: flex;
+    align-items: center;
+}
+
+.inline-img {
+    width: 15px;
+    height: 15px;
+    padding-top: 5.2px;
+}
+
+.inline-img-new {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+
+.inline-img-sub {
+    width: 25px;
+    height: 25px;
+    padding-top: 5.2px;
+    margin-right: 10px;
+}
+
+.inline-text {
+    display: inline;
+    vertical-align: top;
+    margin-right: 0px;
+}
+
+.inline-text-han {
+    display: inline;
+    vertical-align: top;
+    margin-right: 0px;
+    margin-left: 4px;
+}
+
+.inline-text-sub {
+    display: inline;
+    vertical-align: top;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.inline-text-new {
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+
+.comments {
+    vertical-align: top;
+    display: inline;
+    width: 475px;
+    height: 400px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.icon {
+    vertical-align: top;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+    height: 70px;
+    text-align: left;
+    padding-right: 0px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.like {
+    width: 475px;
+    height: 25px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.like div {
+    padding-left: 15px;
+    vertical-align: top;
+    text-align: left;
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.date {
+    width: 475px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.date div {
+    width: 100%;
+    padding-left: 18px;
+    text-align: left;
+    height: 30px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-right: 1px solid gray;
+
+}
+
+.input {
+    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+    height: 40px;
+    text-align: left;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    overflow: hidden;
+    border: 1px solid black;
+
+}
+
+.myprofile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.inline-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
