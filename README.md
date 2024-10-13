@@ -10,4 +10,4 @@
 > HTML, CSS
 
 ### 링크
-> (http://youjeans.dothome.co.kr/instagram)
+> http://youjeans.dothome.co.kr/instagram
